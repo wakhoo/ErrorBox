@@ -18,14 +18,14 @@ import {
 {Platform.OS === 'ios' ? (
                 <AdMobBanner
                   bannerSize="fullBanner"
-                  adUnitID="ca-app-pub-4786552475877219/4742911129"
+                  adUnitID="비밀!"
                   style={styles.banner}
                   servePersonalizedAds = {true} // true or false
                    />
             ) : (
               <AdMobBanner
                   bannerSize="fullBanner"
-                  adUnitID="ca-app-pub-4786552475877219/7752217842"
+                  adUnitID="비밀!"
                   style={styles.banner}
                   servePersonalizedAds = {true} // true or false
                    />
@@ -69,7 +69,7 @@ app.json
       "buildNumber": "1.0.0",
       "bundleIdentifier": "com.jeon.sparta",
       "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4786552475877219~6798228829"
+        "googleMobileAdsAppId": "비밀!"
       }
     },
     "android": {
@@ -80,7 +80,7 @@ app.json
       "package": "com.jeon.sparta",
       "versionCode": 1,
       "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4786552475877219~3242127199"
+        "googleMobileAdsAppId": "비밀!"
       }
     },
     "web": {
